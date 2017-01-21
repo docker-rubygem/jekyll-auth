@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.0.1
+ENV VERSION=1.0.3
 
 RUN gem install jekyll-auth --version ${VERSION} --no-format-exec
 
